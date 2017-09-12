@@ -24,10 +24,9 @@ docker cp sonar-project.properties sonarqube:/opt/sonarqube/mycode/sonar-project
 # Run scan command. This would take 1 minutes.
 # The stdout will show your report link, like below
 # Sample: INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/test:myproject
-docker exec -it sonarqube sh
-cd /opt/sonarqube/mycode
 
-# sonar-runner
+docker exec -it sonarqube sh
+cd /opt/sonarqube/mycode && sonar-runner
 
 # Destroy it, if you don't need it
 docker stop sonarqube  && docker rm sonarqube
