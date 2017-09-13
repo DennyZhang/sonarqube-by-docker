@@ -1,6 +1,5 @@
 [![LinkedIn](https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png)](https://www.linkedin.com/in/dennyzhang001) [![Github](https://www.dennyzhang.com/wp-content/uploads/sns/github.png)](https://github.com/DennyZhang) [![Twitter](https://www.dennyzhang.com/wp-content/uploads/sns/twitter.png)](https://twitter.com/dennyzhang001) [![Slack](https://www.dennyzhang.com/wp-content/uploads/sns/slack.png)](https://www.dennyzhang.com/slack)
 - File me [tickets](https://github.com/DennyZhang/sonarqube-by-docker/issues) or star [this github repo](https://github.com/DennyZhang/sonarqube-by-docker)
-- Github Link: https://github.com/DennyZhang/sonarqube-by-docker
 
 # sonarqube-by-docker
 Setup snoarqube code check for java projects using docker
